@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bienvenue chez Délice Restaurant : une cuisine généreuse et conviviale.">
+  <title>Délice Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#accueil" class="logo">
+      <span class="logo-icon">D</span>
+      <span>Délice<small>RESTAURANT</small></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      Menu
+    </button>
+
+    <nav class="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#carte">Notre carte</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-button">Commander</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-content">
+        <p class="eyebrow">BIENVENUE CHEZ DÉLICE</p>
+
+        <h1>Le goût du bonheur <em>dans chaque assiette.</em></h1>
+
+        <p class="hero-description">
+          Découvrez une cuisine généreuse, des saveurs authentiques
+          et un accueil chaleureux dans votre restaurant Délice.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#carte" class="button button-orange">
+            Découvrir notre carte
+          </a>
+          <a href="#contact" class="button button-outline">
+            Nous contacter
+          </a>
+        </div>
+
+        <p class="hero-note">La passion du goût, le plaisir du partage.</p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="plate">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="floating-card">
+          <span></span>
+          <div>
+            <strong>Un vrai régal !</strong>
+            <small>Le plaisir à chaque bouchée</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <article>
+        <span class="feature-icon"></span>
+        <h3>Produits frais</h3>
+        <p>Des ingrédients soigneusement sélectionnés.</p>
+      </article>
+
+      <article>
+        <span class="feature-icon"></span>
+        <h3>Cuisine généreuse</h3>
+        <p>Des plats préparés avec passion.</p>
+      </article>
+
+      <article>
+        <span class="feature-icon"></span>
+        <h3>Accueil chaleureux</h3>
+        <p>Le plaisir de partager un bon repas.</p>
+      </article>
+    </section>
+
+    <section class="section menu-section" id="carte">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow green-text">NOTRE SÉLECTION</p>
+          <h2>Nos <em>spécialités</em></h2>
+        </div>
+
+        <p>Des recettes savoureuses pour satisfaire toutes vos envies.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="dish-image orange-bg"></div>
+
+          <div class="dish-content">
+            <h3>Poulet braisé</h3>
+            <p>Poulet grillé et accompagnement au choix.</p>
+
+            <div class="dish-footer">
+              <strong>Prix à préciser</strong>
+              <span>Spécialité</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="dish-image green-bg"></div>
+
+          <div class="dish-content">
+            <h3>Poisson braisé</h3>
+            <p>Poisson assaisonné et grillé avec soin.</p>
+
+            <div class="dish-footer">
+              <strong>Prix à préciser</strong>
+              <span>Populaire</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="dish-image cream-bg"></div>
+
+          <div class="dish-content">
+            <h3>Plat du jour</h3>
+            <p>Une recette généreuse selon l'inspiration du chef.</p>
+
+            <div class="dish-footer">
+              <strong>Prix à préciser</strong>
+              <span>Fait maison</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="apropos">
+      <div class="about-visual">
+        <div class="about-logo">
+          <span>Délice</span>
+          <small>RESTAURANT</small>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow green-text">À PROPOS DE NOUS</p>
+
+        <h2>Plus qu'un restaurant, <em>une histoire de passion.</em></h2>
+
+        <p>
+          Chez Délice, nous croyons que chaque repas est une occasion
+          de se retrouver. Nous souhaitons vous offrir une cuisine
+          savoureuse dans une ambiance conviviale.
+        </p>
+
+        <a href="#contact" class="text-link">Venez nous découvrir</a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-intro">
+        <p class="eyebrow">NOUS CONTACTER</p>
+        <h2>On passe à table ?</h2>
+
+        <p>
+          Une commande, une réservation ou une question ?
+          Contactez notre équipe.
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-row">
+          <span></span>
+          <div>
+            <small>ADRESSE</small>
+            <strong>Votre adresse ici</strong>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <span></span>
+          <div>
+            <small>TÉLÉPHONE</small>
+            <strong>Votre numéro ici</strong>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <span></span>
+          <div>
+            <small>HORAIRES</small>
+            <strong>À préciser</strong>
+          </div>
+        </div>
+
+        <a href="#" class="button button-orange whatsapp-button">
+          Commander sur WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#accueil" class="logo footer-logo">
+      <span class="logo-icon">D</span>
+      <span>Délice<small>RESTAURANT</small></span>
+    </a>
+
+    <p>Le goût du bonheur, dans chaque assiette.</p>
+
+    <p class="copyright">
+      © <span id="year"></span> Délice Restaurant. Tous droits réservés.
+    </p>
+  </footer>
+</body>
+</html>
